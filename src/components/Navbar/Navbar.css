@@ -1,0 +1,53 @@
+.nav-bar{
+    height: 650px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+   
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding-top: 15px;
+    padding-left: 8%;
+    padding-right: 0;
+  }
+   
+  .heading{
+   color :rgba(10, 18, 31, 0.664);
+   font-size: 25px;
+   letter-spacing: 4px;
+   margin-left: 45px;
+  }
+   
+  span{
+   color: rgb(29, 57, 216);
+  }
+   
+   
+  nav ul li {
+   list-style-type: none;
+   display: inline-block;
+   padding: 10px 25px;
+  }
+   
+  nav ul li a{
+    color: rgb(24, 11, 11);
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    background-color:rgb(116, 141, 250);
+    margin-left: 15px;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+  }
+   
+  nav ul li a:hover{
+   color:rgb(116, 141, 250);
+   transition: 0.4s;
+   background-color: black;
+  } 
+  
