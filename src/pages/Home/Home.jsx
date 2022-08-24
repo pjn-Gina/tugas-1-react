@@ -5,8 +5,9 @@ const Home = () => {
     return(
         <>
         <Navbar/>
-        <br></br>
+        <br />
         <h1 className="text-center">Home</h1>
+        <h2></h2>
         </>
         
     )
